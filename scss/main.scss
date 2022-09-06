@@ -1,0 +1,70 @@
+//body
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+ background-image: url(../img/fondo);
+}
+//header
+header{
+    .header1{
+        height: 100%;
+        background-image: linear-gradient(to left,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        height: 275px;
+        width: 300px;
+    }
+    .navegacion{
+        border: 2px solid lightgreen;
+        display: inline-flex;
+        padding: 5px;
+    }
+.prox{
+    height: 400px;
+    width: 100%;
+}
+}
+//main
+main{
+    h2{
+        text-align: center;
+    }
+    .prod{
+        display: flex;
+        flex-direction:row ;
+        height: 300px;
+        justify-content: space-around;
+    }
+}
+//footer
+footer{
+    .footer1{
+        background-image: linear-gradient(to left,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89)); 
+    }
+    p{
+        color: white;
+font-size: medium;
+    }
+    .marcas{
+        height: 45px;
+        width: 50px;
+        position: sticky;
+        top: 900px;
+        left: 70%;
+    }
+    .wsp{
+        height: 55px;
+        width: 55px;
+        z-index: 2;
+        border-radius: 20px;
+        position: fixed;
+        top: 920px;
+        left: 97%;
+    }
+}
